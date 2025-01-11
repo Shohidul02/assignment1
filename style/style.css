@@ -207,3 +207,49 @@ font-weight: medium;
     background-color: #05b941;
 }
 /* donate today section */
+.donate-today h2{
+    text-align: center;
+}
+.donate-today p{
+    text-align: center;
+    margin-bottom: 10;
+}
+.donation-option {
+    margin-top: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.donation-option.selected {
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+}
+.donation-option:hover {
+    background-color: #e9ecef;
+}
+
+.donation-input {
+    width: 90%;
+    padding: 10px;
+    font-size: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.donate-button {
+    background-color: #166629;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+}
+
+.donate-button:hover {
+    background-color: #25a741;
+}
+/* footer section */
