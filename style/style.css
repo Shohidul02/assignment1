@@ -1,0 +1,154 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    margin: 0 30px;
+    padding: 0   ;
+    font-family: "Open Sans", serif;
+}
+body{
+    background-color: #F1F1F3;
+}
+nav ul{
+    display: flex;
+     align-items: center;
+     justify-content: space-between;
+     margin-bottom:30px
+}
+.btn-1{
+    font-weight: bold ;
+    color: #006A50;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 18px;
+    border: 1px solid #006A50;
+}
+.btn-2{
+    font-weight: bold ;
+    color: #FFFFFF;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 18px;
+    background-color: #006A50;
+    border: 1px solid #006A50;
+}
+.header{
+    background-image: url(../assets/hero.png);
+    background-repeat: no-repeat;
+    background-position: top right, bottom right;
+    background-color: #C6E4D6;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    height: 50vh;
+}
+.header1{
+    margin-bottom: 50px;
+}
+.banner-header{
+font-size: 24;
+font-weight: medium;
+}
+.banner-title{
+    font-size: 56px;
+    font-weight: bold;
+}
+.color{
+    color:#81938B;
+}
+/* pillars */
+
+.pillars-section {
+    font-size: 24px;
+    margin-bottom: 20px;
+ 
+}
+
+.pillars-container {
+    display: flex;
+    justify-content:space-between;
+}
+
+.pillar-card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 22%;
+}
+/* vision section */
+.vision{
+    padding: 20px;
+}
+
+.vision h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.vision p {
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.cards {
+    display: flex;
+   
+
+.card1 {
+    background-color: #D5E1F5;
+    border-radius: 8px;
+    padding: 20px;
+    width: 30%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+.card2 {
+    background-color: #C6E4D6;
+    border-radius: 8px;
+    padding: 20px;
+    width: 30%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+.card3 {
+    background-color: #F7EBCF;
+    border-radius: 8px;
+    padding: 20px;
+    width: 30%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+.icon {
+    margin-bottom: 10px;
+}
+
+.icon img {
+    width: 50px;
+    height: 50px;
+}
+
+.vision-h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.vision-p {
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.learn-more {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.learn-more:hover {
+    background-color: #0056b3;
+}
+/* Recent News */
