@@ -1,7 +1,7 @@
 *{
     list-style: none;
     text-decoration: none;
-    margin: 0 30px;
+    margin: 10px 30px;
     padding: 0   ;
     font-family: "Open Sans", serif;
 }
@@ -17,7 +17,7 @@ nav ul{
 .btn-1{
     font-weight: bold ;
     color: #006A50;
-    padding: 15px 30px;
+    padding: 10px 20px;
     border-radius: 5px;
     font-size: 18px;
     border: 1px solid #006A50;
@@ -58,7 +58,7 @@ font-weight: medium;
 /* pillars */
 
 .pillars-section {
-    font-size: 24px;
+    font-size: 40px;
     margin-bottom: 20px;
 }
 
@@ -81,7 +81,7 @@ font-weight: medium;
 }
 
 .vision h2 {
-    font-size: 2em;
+    font-size: 40px;
     margin-bottom: 10px;
 }
 
@@ -209,19 +209,20 @@ font-weight: medium;
 /* donate today section */
 .donate-today h2{
     text-align: center;
+    font-size: 40px;
 }
 .donate-today p{
     text-align: center;
     margin-bottom: 10;
 }
 .donation-option {
-    margin-top: 20px;
+    justify-content: space-between;
     background-color: #f9f9f9;
     border: 1px solid #ccc;
     border-radius: 10px;
     padding: 10px 20px;
     font-size: 40px;
-    margin-bottom: 20px;
+
 }
 
 .donation-option.selected {
@@ -233,7 +234,7 @@ font-weight: medium;
 }
 
 .donation-input {
-    width: 90%;
+    width: 100%;
     padding: 10px;
     font-size: 10px;
     margin-bottom: 20px;
