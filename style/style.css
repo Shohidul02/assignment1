@@ -241,7 +241,7 @@ font-weight: medium;
     border-radius: 5px;
 }
 .donate-button {
-    background-color: #166629;
+    background-color: #006A50;
     color: #fff;
     padding: 10px 20px;
     border-radius: 5px;
@@ -253,3 +253,76 @@ font-weight: medium;
     background-color: #25a741;
 }
 /* footer section */
+.subscribe-footer {
+    background-color: #d4edda;
+    padding: 30px 10px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.subscribe-container {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.subscribe-footer h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.subscribe-footer p {
+    color: #555;
+    margin-bottom: 20px;
+
+}
+
+.subscribe-form {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.subscribe-input {
+    font-size: 10px;
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.subscribe-button {
+    background-color: #006A50;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+}
+
+.subscribe-button:hover {
+    background-color: #218838;
+}
+
+.subscribe-note {
+    color: #777;
+    font-size: 12px;
+}
+/* quote setion */
+.quote-container{
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: top left;  
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 5px 0px;
+    background-color: #fff;
+    max-width: 100%;
+    font-size: 16px;
+}
+.quote-author{
+    font-weight: bold;
+    margin-top: 10px;
+}
+.quote-role{
+    color: #888;
+    padding-bottom: 20px;
+}
